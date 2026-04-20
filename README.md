@@ -8,7 +8,7 @@
 
 ## Research Question
 
-**After a significant news event, how quickly is the sentiment reflected in the stock price — and does this speed vary by sector, market cap, and news source?**
+**After a significant news event, how quickly is the sentiment reflected in the stock price, and does this speed vary by sector, market cap, and news source?**
 
 
 
