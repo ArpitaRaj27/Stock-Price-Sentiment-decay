@@ -8,7 +8,7 @@ Method (market model):
      alpha + beta * market_return.
   3. Abnormal return AR_t = actual_return_t - predicted_return_t.
   4. Cumulative abnormal return CAR(t) = sum of AR from t=0 up to t.
-
+ 
 This is the standard event-study approach documented in MacKinlay (1997).
 
 Important: the estimation window ends BEFORE the event window starts, which
