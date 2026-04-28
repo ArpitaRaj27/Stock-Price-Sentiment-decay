@@ -4,12 +4,12 @@ Run: streamlit run dashboard/app.py
 """
 from pathlib import Path
 import sys
-
+ 
 import numpy as np
 import pandas as pd
 import plotly.graph_objects as go
 import streamlit as st
- 
+
 # Make src importable 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 from src import config, decay  # noqa: E402
@@ -41,7 +41,7 @@ if cars is None:
     )
     st.stop()
 
-# ---------------- Sidebar filters ----------------
+# ---------------- Sidebar  filters ----------------
 st.sidebar.header("Filters")
 direction = st.sidebar.radio("Event direction", ["negative", "positive"], index=0)
 sectors_available = sorted(cars["sector"].dropna().unique())
