@@ -4,7 +4,7 @@ Run: streamlit run dashboard/app.py
 """
 from pathlib import Path
 import sys
- 
+
 import numpy as np
 import pandas as pd
 import plotly.graph_objects as go
