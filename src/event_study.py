@@ -32,6 +32,7 @@ def build_trading_day_index(prices: pd.DataFrame) -> pd.DataFrame:
     return prices
 
 
+
 def _estimate_market_model(
     ticker_returns: pd.Series,
     market_returns: pd.Series,
